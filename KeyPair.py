@@ -17,5 +17,6 @@ kp=KeyPair(b"abc",b"xyz123")
 print(kp.public_key_boyutu())
 print(kp.public_key)
 print(kp)#repr=False private keyin yazılmasını engeller ama print(kp.secret_key) yazarsan görünür.
-
+print(kp.secret_key)
 #kp.public_key="cdf" ->bu line frozen yüzünden artık çalışmaz
+#key pairleri değiştirmek istersen import kısmının yanına 'replace' yaz.replace kullanarak değiştirebilirsin.
